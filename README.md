@@ -22,7 +22,7 @@
 
 > [!TIP]
 > #### SCRIPTS
-> Wireguard can run scripts for each interface base on next events:
+> Wireguard can run scripts for each interface based on these events:
 > PreUp, PreDown, PostUp, PostDown
 > Now it can be easily set up in web app
 >
@@ -31,9 +31,9 @@
 
 > [!TIP]
 > #### Example of scriptd (IPTABLES rules)
-> - wg0 rules [ ./scripts/wg0_*.sh ] - trafik is allowded beetween peers and outside the docker
-> - wg1 rules [ ./scripts/wg1_*.sh ] - trafik is blocked beetween peers but allowed outside the docker
-> - wg2 rules [ ./scripts/wg2_*.sh ] - trafik is allowded beetween peers but blocked outside the docker
+> - wg0 rules [ ./scripts/wg0_*.sh ] - trafik is allowded between peers and outside the docker
+> - wg1 rules [ ./scripts/wg1_*.sh ] - trafik is blocked between peers but allowed outside the docker
+> - wg2 rules [ ./scripts/wg2_*.sh ] - trafik is allowded between peers but blocked outside the docker
 
 > [!TIP]
 > #### To use iptables-legacy just select image with the tag prefix ```debian```
